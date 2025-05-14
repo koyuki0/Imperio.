@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario -Imperio Aqueménida</title>
+  <style>
+    /* Estilos generales */
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      line-height: 1.6;
+      background: #f0e6d6;
+      color: #333;
+    }
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+
+    /* Estilo del encabezado */
+    header {
+      background: #4a4a4a;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 5px solid #c3a869;
+    }
+
+    header h1 {
+      font-family: 'Times New Roman', serif;
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Estilo del contenido principal */
+    main {
+      display: flex;
+      margin: 20px 0;
+    }
+
+    .main-content {
+      flex: 3;
+      margin-right: 20px;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-left: 5px solid #c3a869;
+    }
+
+    .main-content h2 {
+      color: #4a4a4a;
+    }
+
+    .sidebar {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-left: 5px solid #4a4a4a;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      color: #c3a869;
+    }
+
+    /* Estilo del pie de página */
+    footer {
+      background: #4a4a4a;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      border-top: 5px solid #c3a869;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    form p {
+      margin-bottom: 15px;
+    }
+
+    input, select {
+      padding: 8px;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #c3a869;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #a98c59;
+    }
+
+    img {
+      display: block;
+      margin: 30px auto;
+      border: 4px solid #c3a869;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Formulario - Mitología Griega</h1>
+      
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="main-content">
+      <h2>Formulario de Contacto</h2>
+      <form action="" method="get"> 
+        <p>Nombre: <input type="text" name="name_control" autofocus required /></p> 
+        <p>Correo electrónico: <input type="email" name="email_control" required /></p> 
+        <p>URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" /></p> 
+        <p>Fecha: <input type="date" name="date_control" /></p> 
+        <p>Tiempo: <input type="time" name="time_control" /></p> 
+        <p>Fecha y hora: <input type="datetime-local" name="datetime_control" /></p> 
+        <p>Mes: <input type="month" name="month_control" /></p> 
+        <p>Semana: <input type="week" name="week_control" /></p> 
+        <p>Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" /></p> 
+        <p>Teléfono: <input type="tel" name="tel_control" /></p> 
+        <p>Término de búsqueda: <input type="search" name="search_control" /></p> 
+        <p>Color favorito: <input type="color" name="color_control" /></p> 
+        <p><input type="submit" value="Enviar" /></p> 
+      </form>
+
+      
+    </section>
+
+    <aside class="sidebar">
+      <h2>Menú</h2>
+     <a href="index.html">Inicio</a>
+      <a href="Historiaaa.html">Historia</a>
+      <a href="Monarcaas.html">Reyes</a>
+      <a href="Culturaaa.html">Cultura</a>
+      <a href="Geografiaa.html">Geografia</a>
+      <a href="Ejercitoo.html">Ejercito</a>
+      <a href="Arquitecturaa.html">Arquitectura</a>
+       <a href="formulario (1).html">formulario</a>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Imperio Persa </p>
+  </footer>
+
+</body>
+</html>
